@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{animation: color 4s infinite;}
+@keyframes color {
+    0%{ background-color: rgb(133, 26, 47);}
+    60%{background-color:rgb(48, 38, 109)}
+    100%{background-color:rgb(41, 48, 41)}
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo1{
+    margin-top:65px;
+    margin-left:40px;
+    margin-bottom:55px;
+    border: 5px solid rgb(46, 71, 139); 
+    
+}
+.logo2{
+    margin:40px;
+    border: 5px solid rgb(46, 71, 139); 
+    
+}
+.logo4{
+    margin:40px;
+    border: 5px solid rgb(46, 71, 139);
+}
+.brief2{
+    border-radius: 50px;
+    width: 17vw;
+    height: 10vh;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 24px;
+    margin-left:40px;
+    box-shadow:1px 3px 4px 2px;
+ }
+.logostyle{
+    width:30%;
+    border:1px solid transparent;
+    height:70vh;
+    transition: 0.2s all ease;
+}
+.logostyle:hover{
+    background-color:lightgray;
+    box-shadow: 10px 3px 80px 20px;
+    color: white;
+    border-radius: 50px;
+}
+.contact{
+    text-align: center;
+}  
+.contact-info{
+    font-family:'DM Sans', sans-serif;
+    font-size:18px;
+}
+.insta{
+    height: 20px;
+}
+.icon1{
+    width: 70px;
+    padding: 10px;
+    border-radius: 80%;
+    mix-blend-mode:color-burn;
+}
+.icon2{
+    width: 55px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    mix-blend-mode: color-burn;
+}
+.icon3{
+    width:85px;
+    padding: 20px;
+    border-radius:80%;
+    mix-blend-mode: color-burn;
+}
+.icon4{
+    width:60px;
+    padding: 20px;
+    border-radius: 50px;
+    mix-blend-mode: color-burn;
+}
+.icon4:hover{
+    mix-blend-mode: normal;
+}
+.icon3:hover{
+    mix-blend-mode: normal;
+}
+.icon2:hover{
+    mix-blend-mode: normal;
+}
+.icon1:hover{
+    mix-blend-mode: normal;
+}
+.testylogo{
+    width: 60px;
+}
+.brief{
+    text-decoration: none;
+}
+@media screen and (min-width:0px) and (max-width: 767px){
+    .body{
+        width: 100vw;
+        height: 100vh;
+    
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+        margin-left:70px;
+        width: 100vw;
+        height: 100vh;
+    }
+    .logo2{
+        width:53vw;
+        height:50vw;
+    }
+    .brief2{
+        width: 50vw;
+        height: 17vw;
+    }
+    .logostyle{
+        width:70vw;
+        height:30vh;
+    }
+    .logostyle:hover{
+        color: black;
+    }
+}

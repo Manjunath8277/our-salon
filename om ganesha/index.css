@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    background: linear-gradient(#dedede,#fefefe);
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .navbar{
+     display:flex;
+     flex-direction: row;
+     width:100%;
+     justify-content: space-between;
+     height:20vh;
+     background-color: black;
+ }
+ .web{
+     font-size:80px;
+     background:linear-gradient(90deg,blue,red);
+     background-clip:text;
+     color: transparent;
+     margin-top:21px;
+     margin-left: 20px;
+ }
+ .navright{
+     margin-top:35px;
+     scroll-behavior: smooth;
+ }
+ .button{
+     width:100px;
+     justify-content: space-between;
+     margin-right:80px;
+     padding:8px;
+     margin-top:25px;
+     background-color:rgb(148, 196, 204);
+     border-radius: 50px;
+ }
+ .button:hover{
+    background: linear-gradient(#fefefe,#dedede); 
+ }
+ .image{
+     width: 100%;  
+ }
+ .services{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width:auto;
+     align-items: center;
+     background:linear-gradient( 90deg ,#CBD3C1,#505250);
+ }
+ .serv{
+     border:4px solid black;
+     margin: 20px;
+     width: 100vw;
+     padding: 90px;
+     scroll-behavior: smooth;
+     transition: 0.6s ease-in;
+ }
+ .love{
+     font-size:60px;
+ }
+ .love1{
+     font-size:60px;
+     background:linear-gradient(90deg,rgb(226, 226, 231),rgb(221, 215, 215));
+     background-clip:text;
+     color: transparent;
+ }
+ .serv1{
+     border: 4px solid black;
+     width: 100vw;
+     margin: 20px;
+     padding: 90px;
+     background-color: black;
+     color: white;
+     transition: 0.8s ease-in;
+ }
+ .serv:hover{
+     border-radius:30px;
+     background-color: pink;
+ }
+ .serv1:hover{
+     border-radius:30px;
+     border-color: white;
+ }
+ .button2{
+        border-radius: 50px;
+        width: 15vw;
+        height: 10vh;
+        color: white;
+        background-color: transparent;
+        margin-top: 24px;
+        
+        box-shadow:1px 3px 4px 2px;
+
+ }
+ .button1{
+        border-radius: 50px;
+        width: 14vw;
+        height: 10vh;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 24px;
+    
+        box-shadow:1px 3px 4px 2px;
+ }
+ .title{
+     font-size:50px;
+     background: linear-gradient(#2e302d , #832e3d);
+     color: white;
+ }
+ .Booking{
+     border: 2px  black;
+     text-align: center;
+     margin-top:50px;
+     width:auto;
+     padding:17px;
+     color:black;
+     background: linear-gradient(#c3c3c3,#a639a6);
+ }
+ .ser-h1{
+     font-family:'DM Sans', sans-serif;
+     color: rgb(241, 17, 62);
+     letter-spacing: 1px;
+     font-size:30px;
+ }
+ .contact{
+     text-align: center;
+     width: 100%;
+     margin-top:-30px;
+     padding-top:35px;
+ }
+ .contact{animation: color 5s infinite;}
+ @keyframes color{
+     0%{ background: linear-gradient( #d5d6df ,#384638);}
+     60%{background: linear-gradient( #a9aeb3 ,#89253e);}
+     100%{background: linear-gradient(#9ba1a5,#47403d);}
+ }
+ .contact-info{
+     font-family:'DM Sans', sans-serif;
+     font-size:18px;
+ }   
+ .insta{
+     height: 200px;
+ }
+
+ .icon1{
+     width: 75px;
+     padding: 10px;
+     border-radius: 80%;
+     mix-blend-mode:color-burn;
+ }
+ .icon2{
+     width: 55px;
+     padding: 10px;
+     margin-bottom: 16px;
+     border-radius: 50px;
+     mix-blend-mode: color-burn;
+ }
+ .icon3{
+     width:85px;
+     padding: 20px;
+     border-radius:80%;
+     mix-blend-mode: color-burn;
+ }
+ .icon4{
+     width:60px;
+     padding: 20px;
+     border-radius: 50px;
+     mix-blend-mode: color-burn;
+ }
+ .icon4:hover{
+     mix-blend-mode: normal;
+ }
+ .icon3:hover{
+     mix-blend-mode: normal;
+ }
+ .icon2:hover{
+     mix-blend-mode: normal;
+ }
+ .icon1:hover{
+     mix-blend-mode: normal;
+ }
+ .testylogo{
+     width: 60px;
+ }
+ @media screen and (min-width:0px) and (max-width: 767px) {
+    body{
+        width:100%;
+    }
+    .web{
+        font-size:45px;
+    }
+    .button{
+       margin-left:130px;
+       padding:2px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .button1,.button2{
+        width:40vw;
+        height: 4vh;
+    }
+    .Booking{
+        width: auto;
+    }
+    .serv{
+       width: auto;
+    }
+    .serv1{
+        width:auto;
+    }
+
+ }
+ 
